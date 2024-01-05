@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roblox Image Response</title>
+</head>
+<body>
+    <!-- API'den dönen cevabı göstereceğimiz div -->
+    <div id="responseDiv"></div>
+    
+    <script>
+        // Sayfa yüklendiğinde isteği yap
+        window.onload = function() {
+            // URL'den 'x' parametresini al
+            const urlParams = new URLSearchParams(window.location.search);
+            const xValue = urlParams.get('x');
+
+            // Eğer 'x' parametresi varsa ve değeri doluysa isteği yap
+            if (xValue) {
+                const requestURL = `https://okis.pythonanywhere.com/getpng?x=${xValue}`;
+
+                fetch(requestURL)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();  // API'den dönen metin verisini al
+                })
+                .then(data => {
+                    // API'den dönen metin verisini 'responseDiv' içerisine ekle
+                    document.getElementById('responseDiv').innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+            } else {
+                console.error('No value for parameter "x"');
+            }
+        };
+    </script>
+</body>
+</html>
