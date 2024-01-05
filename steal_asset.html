@@ -14,9 +14,23 @@
             top: 0;
         }
         img {
-            display: none; 
+            display: none;  
             margin: auto;
             margin-top: 50px;
+        }
+        button {
+            font-family: 'Raleway', sans-serif;            
+            display: none;  
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: rgb(5, 0, 0);
+            border: none;
+            cursor: pointer;
+            border-radius: 10%;
+        }
+        button:hover{
+            background-color: gray;
         }
     </style>
 </head>
@@ -24,17 +38,19 @@
     <center>
         <h1>Contact me for any question discord: 1okaner</h1>
         <img id="responseImage" alt="Encoded Image">
-        <h2 id="loadingMessage" style="text-align: center;">Image loading...</h2> 
+        <h2 id="loadingMessage" style="text-align: center;">Image loading...</h2>
+        <button id="downloadButton">Downland</button> 
     </center>
-    <h2 id="errorMessage" style="text-align: center; display: none;">Empty or Invalid x value.</h2> 
+    <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid x value.</h2> 
     
     <script>
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
             const xValue = urlParams.get('x');
-            const imgElement = document.getElementById('responseImage'); 
-            const loadingMessageElement = document.getElementById('loadingMessage');  
+            const imgElement = document.getElementById('responseImage');  
+            const loadingMessageElement = document.getElementById('loadingMessage'); 
             const errorMessageElement = document.getElementById('errorMessage');  
+            const downloadButton = document.getElementById('downloadButton');  
 
             if (xValue) {
                 const requestURL = `https://okis.pythonanywhere.com/getpng?x=${xValue}`;
@@ -47,19 +63,26 @@
                     return response.text();
                 })
                 .then(data => {
-                    imgElement.src = 'data:image/png;base64,' + data;
-                    imgElement.style.display = 'block'; 
-                    loadingMessageElement.style.display = 'none';
+                    imgElement.src = 'data:image/png;base64,' + data; 
+                    imgElement.style.display = 'block';  
+                    loadingMessageElement.style.display = 'none';  
+                    downloadButton.style.display = 'block'; 
+                    downloadButton.addEventListener('click', function() {
+                        const a = document.createElement('a');
+                        a.href = imgElement.src;
+                        a.download = `creativestudioss_asset_stealer_${xValue}.png`;
+                        a.click();
+                    });
                 })
                 .catch(error => {
                     console.error('Error fetching data:', error);
-                    errorMessageElement.style.display = 'block';  
+                    errorMessageElement.style.display = 'block'; 
                     loadingMessageElement.style.display = 'none'; 
                 });
             } else {
                 imgElement.style.display = 'none';
                 errorMessageElement.style.display = 'block';
-                loadingMessageElement.style.display = 'none'; 
+                loadingMessageElement.style.display = 'none';  
             }
         };
     </script>
