@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,7 +21,7 @@
         }
         button {
             font-family: 'Raleway', sans-serif;            
-            display: block;  
+            display: none;  
             margin-top: 10px;  
             padding: 10px 20px;
             background-color: #fff;
@@ -35,14 +34,6 @@
         button:hover{
             background-color: gray;
         }
-        input {
-            font-size:20px;
-            font-family:'Raleway', sans-serif;
-            height: 35px;
-            width: 200px;
-            border-radius: 5%;
-            border-width: 0px;
-        }
     </style>
 </head>
 <body>
@@ -51,8 +42,6 @@
         <img id="responseImage" alt="Encoded Image">
         <h2 id="loadingMessage" style="text-align: center;">Image loading...</h2>
         <button id="downloadButton">Download</button> 
-        <input type="number" placeholder="Asset ID" id="input">
-        <button id="getpng">Get Png</button>
 
     </center>
     <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid x value.</h2> 
@@ -61,14 +50,12 @@
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
             const xValue = urlParams.get('x');
-            const lvalue=urlParams.get("l")
-            const action=document.getElementById("getpng")
             const imgElement = document.getElementById('responseImage');  
             const loadingMessageElement = document.getElementById('loadingMessage'); 
             const errorMessageElement = document.getElementById('errorMessage');  
             const downloadButton = document.getElementById('downloadButton');
 
-            if (lvalue==1){
+
                 if (xValue) {
                 const requestURL = `https://okis.pythonanywhere.com/getpng?x=${xValue}`;
 
@@ -100,15 +87,6 @@
                 imgElement.style.display = 'none';
                 errorMessageElement.style.display = 'block';
                 loadingMessageElement.style.display = 'none';  
-            }
-            }else {
-                errorMessageElement.style.display = 'none';
-                loadingMessageElement.style.display = 'none'; 
-                imgElement.style.display = 'none';
-                downloadButton.style.display='none'
-                action.addEventListener('click',function(){
-                    window.location.href=`https://creativestudioss.online/steal_asset.html?l=1&x=${document.getElementById("input").value}`
-                })
             }
         };
     </script>
