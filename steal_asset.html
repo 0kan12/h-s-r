@@ -53,6 +53,7 @@
         <button id="downloadButton">Download</button> 
         <input type="number" placeholder="Asset ID" id="input">
         <button id="getpng">Get Png</button>
+
     </center>
     <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid x value.</h2> 
     
@@ -60,49 +61,54 @@
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
             const xValue = urlParams.get('x');
-            const lvalue = urlParams.get("l");
-            const action = document.getElementById("getpng");
-            const imgElement = document.getElementById('responseImage');
-            const loadingMessageElement = document.getElementById('loadingMessage');
-            const errorMessageElement = document.getElementById('errorMessage');
+            const lvalue=urlParams.get("l")
+            const action=document.getElementById("getpng")
+            const imgElement = document.getElementById('responseImage');  
+            const loadingMessageElement = document.getElementById('loadingMessage'); 
+            const errorMessageElement = document.getElementById('errorMessage');  
             const downloadButton = document.getElementById('downloadButton');
-            const inputElement = document.getElementById("input");  // Input elementini al
-    
-            if (lvalue == 1) {
+
+            if (lvalue==1){
                 if (xValue) {
-                    // Kodunuz devam ediyor...
-                } else {
-                    imgElement.style.display = 'none';
-                    errorMessageElement.style.display = 'block';
-                    loadingMessageElement.style.display = 'none';
-                    
-                    let counter = 5;  // Geriye sayım için başlangıç değeri
-                    const countdownElement = document.createElement('p');
-                    countdownElement.style.textAlign = 'center';
-                    countdownElement.style.fontSize = '24px';
-                    countdownElement.style.marginTop = '20px';
-                    countdownElement.innerText = `Redirecting in ${counter} seconds...`;
-                    document.body.appendChild(countdownElement);  // Sayacı ekleyin
-                    
-                    const countdownInterval = setInterval(() => {
-                        counter--;
-                        countdownElement.innerText = `Redirecting in ${counter} seconds...`;
-                        if (counter === 0) {
-                            clearInterval(countdownInterval);  // Zamanlayıcıyı durdur
-                            window.location.href = 'https://creativestudioss.online/';
-                        }
-                    }, 1000);  // 1 saniye (1000 milisaniye) aralıklarla sayacı güncelle
-                }
-            } else {
-                errorMessageElement.style.display = 'none';
-                loadingMessageElement.style.display = 'none';
-                imgElement.style.display = 'none';
-                downloadButton.style.display = 'none';
-    
-                // Olay dinleyicisini doğru bir şekilde tanımlayalım
-                action.addEventListener("click", function() {
-                    window.location.href = `https://creativestudioss.online/steal_asset?l=1&x=${inputElement.value}`;
+                const requestURL = `https://okis.pythonanywhere.com/getpng?x=${xValue}`;
+
+                fetch(requestURL)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    imgElement.src = 'data:image/png;base64,' + data; 
+                    imgElement.style.display = 'block';  
+                    loadingMessageElement.style.display = 'none';  
+                    downloadButton.style.display = 'block'; 
+                    downloadButton.addEventListener('click', function() {
+                        const a = document.createElement('a');
+                        a.href = imgElement.src;
+                        a.download = `creativestudioss_asset_stealer_${xValue}.png`;
+                        a.click();
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    errorMessageElement.style.display = 'block'; 
+                    loadingMessageElement.style.display = 'none'; 
                 });
+            } else {
+                imgElement.style.display = 'none';
+                errorMessageElement.style.display = 'block';
+                loadingMessageElement.style.display = 'none';  
+            }
+            }else {
+                errorMessageElement.style.display = 'none';
+                loadingMessageElement.style.display = 'none'; 
+                imgElement.style.display = 'none';
+                downloadButton.style.display='none'
+                action.addEventListener('click',function(){
+                    window.location.href=`https://creativestudioss.online/steal_asset.html?l=1&x=${document.getElementById("input").value}`
+                })
             }
         };
     </script>
