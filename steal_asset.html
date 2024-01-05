@@ -22,7 +22,7 @@
         }
         button {
             font-family: 'Raleway', sans-serif;            
-            display: none;  
+            display: block;  
             margin-top: 10px;  
             padding: 10px 20px;
             background-color: #fff;
@@ -31,8 +31,17 @@
             cursor: pointer;
             border-radius: 10%;
         }
+        
         button:hover{
             background-color: gray;
+        }
+        input {
+            font-size:20px;
+            font-family:'Raleway', sans-serif;
+            height: 35px;
+            width: 200px;
+            border-radius: 5%;
+            border-width: 0px;
         }
     </style>
 </head>
@@ -41,60 +50,61 @@
         <h1>Contact me for any question discord: 1okaner</h1>
         <img id="responseImage" alt="Encoded Image">
         <h2 id="loadingMessage" style="text-align: center;">Image loading...</h2>
-        <button id="downloadButton" style="display: none;">Download</button>
-        <!-- Yeni eklenen kısım -->
-        <div id="inputSection" style="margin-top: 20px;">
-            <input type="text" id="xValueInput" placeholder="Enter x value">
-            <button id="submitButton">Submit</button>
-        </div>
+        <button id="downloadButton">Download</button> 
+        <input type="number" placeholder="Asset ID" id="input">
+        <button id="getpng">Get Png</button>
     </center>
-    <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid x value.</h2>
+    <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid x value.</h2> 
     
     <script>
         window.onload = function() {
-            const imgElement = document.getElementById('responseImage');  
-            const loadingMessageElement = document.getElementById('loadingMessage'); 
-            const errorMessageElement = document.getElementById('errorMessage');  
-            const downloadButton = document.getElementById('downloadButton');  
-            const xValueInput = document.getElementById('xValueInput');
-            const submitButton = document.getElementById('submitButton');
-
-            submitButton.addEventListener('click', function() {
-                const xValue = xValueInput.value;
+            const urlParams = new URLSearchParams(window.location.search);
+            const xValue = urlParams.get('x');
+            const lvalue = urlParams.get("l");
+            const action = document.getElementById("getpng");
+            const imgElement = document.getElementById('responseImage');
+            const loadingMessageElement = document.getElementById('loadingMessage');
+            const errorMessageElement = document.getElementById('errorMessage');
+            const downloadButton = document.getElementById('downloadButton');
+            const inputElement = document.getElementById("input");  // Input elementini al
+    
+            if (lvalue == 1) {
                 if (xValue) {
-                    const requestURL = `https://okis.pythonanywhere.com/getpng?x=${xValue}`;
-
-                    fetch(requestURL)
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Network response was not ok');
-                        }
-                        return response.text();
-                    })
-                    .then(data => {
-                        imgElement.src = 'data:image/png;base64,' + data; 
-                        imgElement.style.display = 'block';  
-                        loadingMessageElement.style.display = 'none';  
-                        downloadButton.style.display = 'block'; 
-                        downloadButton.addEventListener('click', function() {
-                            const a = document.createElement('a');
-                            a.href = imgElement.src;
-                            a.download = `creativestudioss_asset_stealer_${xValue}.png`;
-                            a.click();
-                        });
-                        document.getElementById('inputSection').style.display = 'none'; // Text kutusu ve butonu gizle
-                    })
-                    .catch(error => {
-                        console.error('Error fetching data:', error);
-                        errorMessageElement.style.display = 'block'; 
-                        loadingMessageElement.style.display = 'none'; 
-                    });
+                    // Kodunuz devam ediyor...
                 } else {
+                    imgElement.style.display = 'none';
                     errorMessageElement.style.display = 'block';
+                    loadingMessageElement.style.display = 'none';
+                    
+                    let counter = 5;  // Geriye sayım için başlangıç değeri
+                    const countdownElement = document.createElement('p');
+                    countdownElement.style.textAlign = 'center';
+                    countdownElement.style.fontSize = '24px';
+                    countdownElement.style.marginTop = '20px';
+                    countdownElement.innerText = `Redirecting in ${counter} seconds...`;
+                    document.body.appendChild(countdownElement);  // Sayacı ekleyin
+                    
+                    const countdownInterval = setInterval(() => {
+                        counter--;
+                        countdownElement.innerText = `Redirecting in ${counter} seconds...`;
+                        if (counter === 0) {
+                            clearInterval(countdownInterval);  // Zamanlayıcıyı durdur
+                            window.location.href = 'https://creativestudioss.online/';
+                        }
+                    }, 1000);  // 1 saniye (1000 milisaniye) aralıklarla sayacı güncelle
                 }
-            });
+            } else {
+                errorMessageElement.style.display = 'none';
+                loadingMessageElement.style.display = 'none';
+                imgElement.style.display = 'none';
+                downloadButton.style.display = 'none';
+    
+                // Olay dinleyicisini doğru bir şekilde tanımlayalım
+                action.addEventListener("click", function() {
+                    window.location.href = `https://creativestudioss.online/steal_asset?l=1&x=${inputElement.value}`;
+                });
+            }
         };
     </script>
 </body>
 </html>
-
