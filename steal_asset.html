@@ -44,12 +44,12 @@
         <button id="downloadButton">Download</button> 
 
     </center>
-    <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid x value.</h2> 
+    <h2 id="errorMessage" style="text-align: center; display: none;">None or Invalid asset id.</h2> 
     
     <script>
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
-            const xValue = urlParams.get('x');
+            const xValue = urlParams.get('id');
             const imgElement = document.getElementById('responseImage');  
             const loadingMessageElement = document.getElementById('loadingMessage'); 
             const errorMessageElement = document.getElementById('errorMessage');  
