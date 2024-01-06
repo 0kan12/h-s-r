@@ -1,0 +1,272 @@
+{"sorular":[
+    {
+        "soru":"İslamiyet öncesi Türk şiirinde şiir yazanlara hangisi söylenmez?",
+        "süre":30,
+        "secenek_a":"Ozan",
+        "secenek_b":"Baksı",
+        "secenek_c":"Şaman",
+        "secenek_d":"Şair",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Hangisi İslamiyet öncesi Türk şiirindeki edebi ürünlerden biri değildir?",
+        "süre":30,
+        "secenek_a":"Masal",
+        "secenek_b":"Koşuk",
+        "secenek_c":"Sagu",
+        "secenek_d":"Destan",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Geçiş Dönemi Türk şiiri eserlerinden biri değildir?",
+        "süre":30,
+        "secenek_a":"Araba Sevdası",
+        "secenek_b":"Kutadgu Bilig",
+        "secenek_c":"Divanı Hikmet",
+        "secenek_d":"Atabetül Hakayık",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Geçiş Dönemi Türk şiiri özelliklerinden biri değildir?",
+        "süre":60,
+        "secenek_a":"Arapça ve Farsça tamlamalar sıkça kullanılmıştır",
+        "secenek_b":"Çoğunlukla Didaktik eserlerdir",
+        "secenek_c":"Sadece Aruz ölçüsü kullanılmıştır",
+        "secenek_d":"Hakaniye Türkçesiyle yazılmıştır",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Anonim Halk şiiri örneklerinden değildir?",
+        "süre":30,
+        "secenek_a":"Mani",
+        "secenek_b":"Nefes",
+        "secenek_c":"Ninni",
+        "secenek_d":"Ağıtlar",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Aşık Tarzı Halk şiiri örneklerinden değildir?",
+        "süre":30,
+        "secenek_a":"Koşma",
+        "secenek_b":"Semai",
+        "secenek_c":"Koşuk",
+        "secenek_d":"Varsağı",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"İslamiyet öncesi Türk şiirleri hangi törenlerde söylenmiştir?",
+        "süre":30,
+        "secenek_a":"Sığır",
+        "secenek_b":"Şölen",
+        "secenek_c":"Yuğ",
+        "secenek_d":"Bayram",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Dörtlük sayısı sınırsız olup hece ölçüsü ile söylenen İslamiyet Öncesi Türk Şiiri Nazım Şekillerinden hangisidir?",
+        "süre":45,
+        "secenek_a":"Destan",
+        "secenek_b":"Sagu",
+        "secenek_c":"Koşuk",
+        "secenek_d":"Sav",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Kutadgu Bilig özelliklerinden değildir?",
+        "süre":60,
+        "secenek_a":"Yusuf Has Hacib tarafından yazılmıştır",
+        "secenek_b":"Mutluluk everen bilgi anlamına gelmektedir",
+        "secenek_c":"Kün Tagdı, Ay Toldı, Ögdilmiş, Odgurmuş kahramanları vardır",
+        "secenek_d":"Araplara Türkçenin zenginliğini göstermek amacıyla yazılmıştır",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Divanı Lügatit Türk özelliklerinden değildir?",
+        "süre":60,
+        "secenek_a":"Kaşgarlı Mahmut tarafından yazılmıştır",
+        "secenek_b":"Bİr seyahatnamedir",
+        "secenek_c":"Arapça yazılmıştır",
+        "secenek_d":"Türk boylarının yaşadıkları yerleri gösteren bir haritası vardır",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Tekke-Tasavvuf Tarzı Halk şiiri örneklerinden değildir?",
+        "süre":30,
+        "secenek_a":"Şathiye",
+        "secenek_b":"İlahi",
+        "secenek_c":"Devhiye",
+        "secenek_d":"Bilmeceler",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Halk şiirinin genel özelliklerinden değildir?",
+        "süre":60,
+        "secenek_a":"Genel olarak Aruz ölçüsü kullanılır",
+        "secenek_b":"Şiirler conk adı verilen defterlerde toplanmıştır",
+        "secenek_c":"Nazım birimi dörtlüktür",
+        "secenek_d":"Aşk, tabiat, hasret, yiğitlik gibi konular işlenmiştir",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Koşuğun özelliklerinden biri değildir?",
+        "süre":60,
+        "secenek_a":"Kopuz eşliğinde söylenir",
+        "secenek_b":"Lirik şiirlerdir",
+        "secenek_c":"Konusu aşk, sevgi, doğa, savaş ve kahramanlıktır",
+        "secenek_d":"Cenaze törenlerinde söylenir",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Sagunun özelliklerinden biri değildir?",
+        "süre":30,
+        "secenek_a":"Bağlama eşliğinde söylenir",
+        "secenek_b":"Nazım birimi dörtlüktür",
+        "secenek_c":"Ölçüsü hece ölçüsüdür",
+        "secenek_d":"Yarım uyak kullanılmıştır",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Atabetül Hakayık özelliklerinden değildir?",
+        "süre":40,
+        "secenek_a":"Ahmet Yesev, tarafından yazılmıştır",
+        "secenek_b":"Gerçeklerin eşiği anlamına gelmektedir",
+        "secenek_c":"Didaktik bir eserdir",
+        "secenek_d":"Hakaniye Türkçesiyle yazılmıştır",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Anonim Halk Şiiri özelliklerinden değildir?",
+        "süre":40,
+        "secenek_a":"İlk söyleyeni belli olmayan ürünlerdir",
+        "secenek_b":"Nazım birimi dörtlüktür",
+        "secenek_c":"Genellikle yarım uyak kullanılır",
+        "secenek_d":"Arapça ve Farsça tamlama fazladır",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Hangisi Mani ile ilgili yanlış bir bilgidir?",
+        "süre":40,
+        "secenek_a":"baba şeklinde uyaknalır",
+        "secenek_b":"Asıl anlatılmak istenen son iki dizededir",
+        "secenek_c":"Genellikle 7'li hece ölçüsü kullanılır",
+        "secenek_d":"Anonim Halk şiiri içinde yer alır",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Mani türlerinden biri değildir?",
+        "süre":30,
+        "secenek_a":"Düz Mani",
+        "secenek_b":"Cinaslı Mani",
+        "secenek_c":"Ayaklı Mani",
+        "secenek_d":"Çapraz Mani",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Sav özelliklerinden değildir?",
+        "süre":40,
+        "secenek_a":"Özlü sözlerdir",
+        "secenek_b":"İslamiyet öncesinde atasözünün karşılığıdır",
+        "secenek_c":"İnsanlara yol gösterme ve öğüt verme amacı vardır",
+        "secenek_d":"Bir düşünceyi, yaşam deneyimini fazlasıyla uzun olarak anlatır",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Dini-Tasavvufi Halk şiiri özelliklerinden değildir?",
+        "süre":40,
+        "secenek_a":"Dini ve Tasavvufi düşünceyi yayma amacı vardır",
+        "secenek_b":"Belirli bir ezgiyle söylenir",
+        "secenek_c":"Kurucusu Kaşgarlı Mahmuttur",
+        "secenek_d":"Tasavvufun amacı insanı olgunlaştırmaktır",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Koşmanın konularına ayrılmış türlerinden biri değildir?",
+        "süre":30,
+        "secenek_a":"Güzelleme",
+        "secenek_b":"Sevdirme",
+        "secenek_c":"Taşlama",
+        "secenek_d":"Koçaklama",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"İslamiyet öncesi Türk şiirlerinde hangi dinin etkileri görülmez?",
+        "süre":20,
+        "secenek_a":"Şamanizm",
+        "secenek_b":"Manihaizm",
+        "secenek_c":"İslam",
+        "secenek_d":"Budizm",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Daha yedi yaşındayken iki gözünü de kaybeden halk şairimiz kimdir?",
+        "süre":40,
+        "secenek_a":"Aşık Veysel",
+        "secenek_b":"Dadaloğlu",
+        "secenek_c":"Köroğlan",
+        "secenek_d":"Karacaoğlan",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdaki şairlerden hangisi Divan Edb. dan etkilenmemiş  Halk Edb. ı geleneğine göre şiir yazmaya devam eden şairlerden değildir?",
+        "süre":60,
+        "secenek_a":"Karacaoğlan",
+        "secenek_b":"Ahmet Yesevi",
+        "secenek_c":"Dadaloğlu",
+        "secenek_d":"Köroğlan",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Destanın özelliklerinden değildir?",
+        "süre":40,
+        "secenek_a":"Olağanüstülükler bulunmaktadır",
+        "secenek_b":"Dörtlük sayısı sınırsızdır",
+        "secenek_c":"Aruz ölçüsü ile yazılmıştır",
+        "secenek_d":"Toplumu etkiliyen olaylar ve durumlar işlenir",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Bre, Hey gidi gibi ünlemler kullanılıyorsa bu türe ne denir?",
+        "süre":30,
+        "secenek_a":"Varsağı",
+        "secenek_b":"Destan",
+        "secenek_c":"Koşma",
+        "secenek_d":"Semai",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi semainin güzellemeden farkından biridir?",
+        "süre":40,
+        "secenek_a":"Çoğunlukla 3 ila 5 dörtlükten oluşurlar",
+        "secenek_b":"Kafiye düzeni",
+        "secenek_c":"Birinin 8'lik hece ölçüsüyle yazılması",
+        "secenek_d":"Doğa, güzellik gibi konuların işlenmesi",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Dinavı Hikmetin özelliklerinden değildir?",
+        "süre":40,
+        "secenek_a":"Manzume şeklinde yazılmıştır",
+        "secenek_b":"Eser Arapça olarak yazılmıştır",
+        "secenek_c":"Dini-Tasavvuf Halk şiiri kurucusu tarafından yazılmıştır",
+        "secenek_d":"Hem hece hem aruz ölçüsü kullanılmıştır",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Semai'inin konusu aşağıdakilerden hangisidir?",
+        "süre":20,
+        "secenek_a":"Eleştiri",
+        "secenek_b":"Kahramanlık",
+        "secenek_c":"Aşk Sevgi",
+        "secenek_d":"Bilgi verme",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"İlahiye; Bektaşilerde ...., Alevilerde ..... denir. Boşluklara SIRASIYLA ne gelmelidir?",
+        "süre":30,
+        "secenek_a":"Deme - Nefes",
+        "secenek_b":"Nefes - Deme",
+        "secenek_c":"Nefsiye - Dema",
+        "secenek_d":"Nefis - Demet",
+        "dogru_cevap":"B"
+    }
+]}
