@@ -1,0 +1,182 @@
+{"sorular":[
+    {
+        "soru":"Aşağıdakilerden hangisi Ankara Savaşının sonuçlarından biri değildir?",
+        "süre":60,
+        "secenek_a":"Yıldırım Beyazid esir düşmüştür.",
+        "secenek_b":"Osmanlı fetret devrine girmiştir.",
+        "secenek_c":"Savaş sonunda Emir Timur ölmüştür.",
+        "secenek_d":"Bizans İmparatorluğu bu savaştan sonra toprak kazanmıştır.",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Osmanlı'nın Rumelide elde ettiği ilk toprak hangisidir?",
+        "süre":60,
+        "secenek_a":"Çimpe Kalesi",
+        "secenek_b":"Çimen Kalesi",
+        "secenek_c":"Çayırlı Kalesi",
+        "secenek_d":"Çamurlu Kalesi",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Osman Bey zamanında olmamıştır?",
+        "süre":60,
+        "secenek_a":"Hutbe okutulması",
+        "secenek_b":"Para bastırılması",
+        "secenek_c":"Koyunhisar Savaşı",
+        "secenek_d":"Bursa'nın Fethi",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Orhan Bey zamanında Bursa'nın başkent yapılmasının sebebplerinden biri değildir?",
+        "süre":60,
+        "secenek_a":"İpek üretiminin fazla olması",
+        "secenek_b":"Kürk yolunun üstünde bulunması",
+        "secenek_c":"İpek yolunun üstünde bulunması",
+        "secenek_d":"Jeopolotik konumu",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Bizans tarafından kullanılan suyun üstünde yanabilen ateşe verilen isim nedir?",
+        "süre":60,
+        "secenek_a":"Rum Ateşi",
+        "secenek_b":"Haçlı Ateşi",
+        "secenek_c":"Bizans Ateşi",
+        "secenek_d":"Gemici Ateşi",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Yıldırım Beyazid zamanında savaşarak alınan beyliklerden biri değildir?",
+        "süre":60,
+        "secenek_a":"Aydınoğulları",
+        "secenek_b":"Dulkadiroğulları",
+        "secenek_c":"Candaroğulları",
+        "secenek_d":"Eretna Beyliği",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi 1. Murad zamanında Germiyenoğullarından alınan bir toprak değildir?",
+        "süre":60,
+        "secenek_a":"Kütahya",
+        "secenek_b":"Emek",
+        "secenek_c":"Tavşanlı",
+        "secenek_d":"Isparta",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"2. Beylikler Dönemi'nde en güçlü beylik aşağıdakilerden hangisidir?",
+        "süre":60,
+        "secenek_a":"Karamanoğulları",
+        "secenek_b":"Eretna Beyliği",
+        "secenek_c":"Hamitoğulları",
+        "secenek_d":"Ramazanoğulları",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Kılıç hakkında verilen toprağa ne isim verilir?",
+        "süre":60,
+        "secenek_a":"Tekfur",
+        "secenek_b":"Dirlik",
+        "secenek_c":"Şeyh",
+        "secenek_d":"Voyvoda",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi kurulan ilk kadın teşkilatının ismidir?",
+        "süre":60,
+        "secenek_a":"Ahiyan-ı Rum",
+        "secenek_b":"Kadın-ı Rum",
+        "secenek_c":"Baciyan-ı Rum",
+        "secenek_d":"Teşkilat-ı Rum",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisinin fethi Anadolu Türk Siyasi Birliğine girmez?",
+        "süre":60,
+        "secenek_a":"Girit",
+        "secenek_b":"Mersin",
+        "secenek_c":"Giresun",
+        "secenek_d":"Ağrı",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Yassıçimen Savaşı hangi iki devlet arasında yapılmıştır?",
+        "süre":60,
+        "secenek_a":"Osmanlı-Bizans",
+        "secenek_b":"TÜrkiye Selçuklu Dev.-Moğol İmp.",
+        "secenek_c":"Osmanlı-Karamanoğulları",
+        "secenek_d":"Türkiye Selçuklu Dev.-Harezmşahlar",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"İlk Türk denizcisi Çaka Bey kimin entrikaları yüzünden öldürülmüştür?",
+        "süre":60,
+        "secenek_a":"1. Kılıçarslan",
+        "secenek_b":"Bizans İmparatoru",
+        "secenek_c":"1. Mesut",
+        "secenek_d":"2. Kılıçarslan",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Anadoluda açılan ilk tıp okuludur?",
+        "süre":60,
+        "secenek_a":"Cevher Nesibe Dar.",
+        "secenek_b":"Turan Basri Dar.",
+        "secenek_c":"Gevher Nesibe Dar.",
+        "secenek_d":"Baysal Hünkar Dar.",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi Türkiye Selçuklu Dev.'de bulunan askeri sınıf askerlik dışında iş yapamaz?",
+        "süre":60,
+        "secenek_a":"Hassa Askerleri",
+        "secenek_b":"İkta Askerleri",
+        "secenek_c":"Yeniçeriler",
+        "secenek_d":"Türkmenler",
+        "dogru_cevap":"A"
+    },
+    {
+        "soru":"Türkiye Selçuklu Dev.'de yöneticiye verilen ad nedir?",
+        "süre":60,
+        "secenek_a":"İmparator",
+        "secenek_b":"Kral",
+        "secenek_c":"Sultan",
+        "secenek_d":"Padişah",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Aşağıdakilerden hangisi 2. Kılıçarslan Döneminde yaşanmıştır?",
+        "süre":60,
+        "secenek_a":"Başkentin Konya'ya taşınması",
+        "secenek_b":"Miryokefalon Savaşı",
+        "secenek_c":"Babiler Ayaklanması",
+        "secenek_d":"1. Haçlı Seferi",
+        "dogru_cevap":"B"
+    },
+    {
+        "soru":"Kösedap Savaşından sonra Anadolu ile ilgili hangisi söylenemez?",
+        "süre":60,
+        "secenek_a":"Tarımsal üretim azaldı",
+        "secenek_b":"Batı Anadolunun Türkleşmesi sağlandı",
+        "secenek_c":"Bilimsel ve Kültürel faaliyetler durma noktasına geldi",
+        "secenek_d":"3. Haçlı Seferi başladı",
+        "dogru_cevap":"D"
+    },
+    {
+        "soru":"Anadoluda kurulan ilk medrese hangi Türk beyliğinde kurulmuştur?",
+        "süre":60,
+        "secenek_a":"Saltuklular",
+        "secenek_b":"Mengücekliler",
+        "secenek_c":"Danişmentliler",
+        "secenek_d":"Artuklular",
+        "dogru_cevap":"C"
+    },
+    {
+        "soru":"Mengücekliler tarafından yapılmış, UNESCO tarafından korunun eser hangisidir?",
+        "süre":60,
+        "secenek_a":"Ulu Camii",
+        "secenek_b":"Divriği Ulu Camii",
+        "secenek_c":"Divriği Camii",
+        "secenek_d":"Sivas Camii",
+        "dogru_cevap":"B"
+    }
+]}
